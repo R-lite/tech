@@ -1,0 +1,65 @@
+.carousel_manual{
+    background-color: rgb(232, 232, 238);
+}
+.tile-ex{
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.tile-pad{
+    border-left: 1px solid rgb(236, 41, 41);
+    padding: 0rem 2.5rem 0rem 2.5rem;
+}
+.inputfield{
+    background-color: rgb(255, 255, 255);
+    padding: 1.2rem;
+    border: 0px none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.txtarea{
+    background-color: rgb(255, 255, 255);
+    padding: 1.2rem;
+    border: 0px none;
+    border-radius: 1rem;
+    width: 100%;
+}
+.curve{
+    border-radius: 1rem;
+}
+.subtitle{
+    font-size: .85rem;
+    font-family: serif, 'Times New Roman', Times;
+}
+.social_icon a i{
+    padding-right: .5rem;
+    color: rgb(255, 255, 255);
+}
+.social_icon a:hover i{
+    color: crimson;
+}
+
+
+
+@media (min-width: 650px) {
+    .intro{
+    padding-right:4rem;
+    }
+}
+@media (min-width: 800px){
+    .intro{
+        padding-right:10rem ;
+    }
+}
+
+@media (min-width: 650px) {
+    .carousel-manual{
+    padding: 0rem 10rem 0rem 10rem;
+    }
+}
+@media (min-width: 800px){
+    .carousel-manual{
+        padding: 0rem 15rem 0rem 15rem;
+    }
+}
